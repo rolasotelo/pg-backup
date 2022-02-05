@@ -40,3 +40,8 @@ Before we commit anything, we're going to pull in a default Python .gitignore (h
 ```shell
 (pgbackup) $ curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 ```
+
+Build by running in the project's directory while pipenv is active
+```shell
+$ python setup.py bdist_wheel
+```
